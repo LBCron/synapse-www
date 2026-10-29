@@ -59,9 +59,9 @@ const ogImage = `${SITE}/og-image.png`;
         <span class="wm"><b>SYNAPSE</b><i>MEDICAL</i></span>
       </a>
       <span class="sp"></span>
-      <div class="lang" role="group" aria-label={ui.lang} style={localized ? undefined : "display:none"}>
-        <a href={lang === 'fr' ? undefined : paths.fr} hreflang="fr" lang="fr" class={lang === 'fr' ? 'on' : ''} aria-current={lang === 'fr' ? 'true' : undefined}>FR</a>
-        <a href={lang === 'en' ? undefined : paths.en} hreflang="en" lang="en" class={lang === 'en' ? 'on' : ''} aria-current={lang === 'en' ? 'true' : undefined}>EN</a>
+      <div class="lang" role="group" aria-label={ui.lang}>
+        <a href={localized && lang === 'fr' ? undefined : paths.fr} hreflang="fr" lang="fr" class={lang === 'fr' ? 'on' : ''} aria-current={lang === 'fr' ? 'true' : undefined}>FR</a>
+        <a href={localized && lang === 'en' ? undefined : paths.en} hreflang="en" lang="en" class={lang === 'en' ? 'on' : ''} aria-current={lang === 'en' ? 'true' : undefined}>EN</a>
       </div>
       <button class="ibtn" id="theme" type="button" aria-label={ui.theme}>
         <svg class="i" aria-hidden="true"><use href="#i-moon"></use></svg>

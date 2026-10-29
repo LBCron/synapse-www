@@ -51,6 +51,15 @@ const text = {
         path.hidden = false;
       }
     });
+    // Same header as the other pages: the language switch leads to the home page of each language.
+    document.querySelectorAll<HTMLAnchorElement>('.lang a').forEach((a) => {
+      const current = a.hreflang === lang;
+      a.classList.toggle('on', current);
+      if (current) a.setAttribute('aria-current', 'true');
+      else a.removeAttribute('aria-current');
+    });
+    const switchLabel = document.querySelector('.lang');
+    if (switchLabel && en) switchLabel.setAttribute('aria-label', 'Language');
     const theme = document.getElementById('theme');
     if (theme && en) theme.setAttribute('aria-label', 'Toggle theme');
     const docsLink = document.querySelector<HTMLAnchorElement>('.cs-foot a');
