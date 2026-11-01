@@ -51,7 +51,7 @@ svg.i{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.6;stro
 .hero{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:88px 32px 0;text-align:center}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font:500 12px var(--mono);color:var(--ink2);border:1px solid var(--line);border-radius:999px;padding:4px 10px 4px 6px;background:var(--bg2)}
 .eyebrow b{background:var(--accent);color:#fff;border-radius:999px;padding:1px 7px;font-weight:600}
-[data-theme="dark"] .eyebrow b{color:#0B0F1A}
+[data-theme="dark"] .eyebrow b{color:#0F1629}
 a.eyebrow:hover{text-decoration:none;border-color:var(--line2);color:var(--ink)}
 .hero h1{font-family:var(--serif);font-size:clamp(42px,6vw,74px);line-height:1.03;letter-spacing:-.025em;font-weight:400;margin:22px auto 18px;max-width:900px;text-wrap:balance}
 .hero h1 em,.sec-t em,.cta h2 em,.cs h1 em{font-style:normal;color:var(--accent)}

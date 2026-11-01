@@ -34,7 +34,7 @@
 .plan{border:1px solid var(--line);border-radius:14px;background:var(--bg);padding:26px;display:flex;flex-direction:column;gap:16px;position:relative}
 .plan.feat{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft),0 30px 60px -30px var(--shadow)}
 .plan .flag{position:absolute;top:-12px;left:24px;background:var(--accent);color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:99px}
-[data-theme="dark"] .plan .flag{color:#0B0F1A}
+[data-theme="dark"] .plan .flag{color:#0F1629}
 .plan h3{font-size:19px;font-weight:800}.plan .for{color:var(--ink2);font-size:14px;min-height:44px}
 .price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}.price b{font-family:var(--serif);font-weight:400;font-size:44px;letter-spacing:-.02em;line-height:1}.price small{color:var(--ink3);font-size:13.5px}
 .plan ul{list-style:none;margin:0;padding:16px 0 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:9px;font-size:14.5px;color:var(--ink2)}
