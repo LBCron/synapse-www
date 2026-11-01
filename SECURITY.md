@@ -10,7 +10,7 @@ visitor and stores nothing.
 Please do not open a public issue for a security problem.
 
 Report it privately with GitHub's
-[private vulnerability reporting](https://github.com/stevenCayla/synapse-www/security/advisories/new)
+[private vulnerability reporting](https://github.com/synapse-medical/synapse-www/security/advisories/new)
 (*Security* tab → *Report a vulnerability*). Include the page or file concerned,
 the steps to reproduce it and the impact you see.
 
