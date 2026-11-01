@@ -5,11 +5,11 @@
 **The public website of [Synapse Medical](https://synapse-medical.fr)**<br>
 The EDC platform for clinical research, in French and English.
 
-[![CI](https://github.com/stevenCayla/synapse-www/actions/workflows/ci.yaml/badge.svg)](https://github.com/stevenCayla/synapse-www/actions/workflows/ci.yaml)
+[![CI](https://github.com/synapse-medical/synapse-www/actions/workflows/ci.yaml/badge.svg)](https://github.com/synapse-medical/synapse-www/actions/workflows/ci.yaml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Astro](https://img.shields.io/badge/Astro-7-ff5d01.svg)](https://astro.build)
 
-[Production](https://synapse-medical.fr) · [Development](https://dev-www.synapse-medical.fr) · [Documentation](https://docs.synapse-medical.fr) · [Report an issue](https://github.com/stevenCayla/synapse-www/issues)
+[Production](https://synapse-medical.fr) · [Development](https://dev-www.synapse-medical.fr) · [Documentation](https://docs.synapse-medical.fr) · [Report an issue](https://github.com/synapse-medical/synapse-www/issues)
 
 </div>
 
@@ -43,7 +43,7 @@ lists them. The complete version of the site (about 70 pages) is developed on th
 `new-version` branch and is not published yet.
 
 The product documentation lives in its own repository,
-[synapse-docs](https://github.com/stevenCayla/synapse-docs).
+[synapse-docs](https://github.com/synapse-medical/synapse-docs).
 
 ## Environments
 
